@@ -1,0 +1,50 @@
+/*navigation*/
+.work{
+  display: inline;
+
+}
+.lefthiddenbar{
+  padding-top:10px;
+
+}
+.button{
+  margin-right: 15px:
+}
+.navbar-default{
+  margin-bottom: 0;
+  height: 20px;
+  padding-left:10;
+  background-color: #fff;
+}
+/*jumbotron*/
+.jumbotron{
+  background-color: #0248ff;
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+}
+.welcome{
+  color: #fff;
+  padding: 10px;
+}
+h1{
+  font-size: 10px;
+  line-height: 1.18;
+}
+h2{
+  font-weight: 400;
+  line-height: 1.25
+}
+.form{
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 32px;
+
+}
+span::before{
+  content: "";
+  border-top: 2px solid #333;
+}
+span::after{
+  content: "";
+  border-top: 2px solid #333;
+}
+https://github.com/obors/html-css-digitalocean.git
