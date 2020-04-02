@@ -12,10 +12,9 @@
     <div class="containers">
       <div class=" row col-xs-8 lefthiddenbar">
         <button type="button" name="button">new</button>
-          <p class="work"><small><a href="#"><span>Working on something related to COVID-19? DigitalOcean would like to help ❯</span></a></small></p>
+          <p class="work"><small><a href="#">Working on something related to COVID-19? DigitalOcean would like to help ❯</a></small></p>
       </div>
-      <div class=" row hidden-xs hidden-sm col-xs-4 hiddenbar">
-        <ul class="nav navbar-nav">
+        <ul class="nav hidden-xs hidden-sm navbar-nav">
           <li><a href="#">Docs</a></li>
           <li><a href="#">Get Support</a></li>
           <li><a href="#">Sales</a></li>
@@ -23,20 +22,17 @@
         </ul>
       </div>
     </div>
-
   </nav>
     <nav class="navbar hidden-xs navbar-default fixed">
       <div class="container-fluid nav">
             <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          </button>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span></button>
           <a class="navbar-brand" href="#">logo</a>
         </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
+          <ul class="nav hidden-xs hidden-sm navbar-nav">
             <li><a href="#">Products</a></li>
             <li><a href="#">Marketplace</a></li>
             <li><a href="#">Costumers</a></li>
@@ -52,11 +48,11 @@
     </nav>
     <div class="jumbotron">
       <div class="container">
-        <div class="row welcome col-xs-12 col-sm-6 col-md-6">
+        <div class="row welcome col-xs-12 col-sm-6  col-md-6">
           <h1><strong>Welcome to the developer cloud</strong></h1>
           <p>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel, predictable pricing, team accounts, and more.</p>
         </div>
-        <div class="row form col-xs-12 col-sm-6 col-md-6">
+        <div class="row form col-xs-12 col-sm-6 col-md-4 col-offset-md-2  col-lg-4 col-offset-lg-2">
           <form>
           <h2><strong>Deploy in seconds</strong></h2>
             <div class="form-group">
@@ -68,14 +64,43 @@
             <div class="form-group">
               <input type="crate a psw" class="form-control" id="exampleInputEmail1" placeholder="Create a password">
             </div>
-            <button type="submit" class="btn center-block btn-default">Create your account</button>
+            <button type="submit" class="btn create center-block btn-default">Create your account</button>
             <div class="alernative-log center-block">
               <span>or sign up with</span>
             </div>
+            <div class="log-btn">
+              <div class="google">
+                <span><i class="fab fa-google"></i></span>
+                <a href="https://accounts.google.com/signin/oauth/oauthchooseaccount?client_id=688282621011-1k9rfj2mg274oatve8cl1vj5ancu8mti.apps.googleusercontent.com&as=DZNQWsMu608_jCymjnb5tA&destination=https%3A%2F%2Fcloud.digitalocean.com&approval_state=!ChRqd0s1c0tZVHJVYzhqMk5abzdmbRIfMHpQOGtEMnJQUWtZOERFdWhZOThQYzlGRnFocEV4Yw%E2%88%99AF-3PDcAAAAAXoYUs5HmNhQTVvnE_o3iMRvPrT_EFNgc&oauthgdpr=1&xsrfsig=ChkAeAh8TzMHJ__lE_aVqa5B4DB9GLW-r_qQEg5hcHByb3ZhbF9zdGF0ZRILZGVzdGluYXRpb24SBXNvYWN1Eg9vYXV0aHJpc2t5c2NvcGU&flowName=GeneralOAuthFlow" type="button" name="button">Google</a>
+              </div>
+              <div class="github">
+                <span><i class="fab fa-github"></i></span>
+                <a href="https://github.com/login/oauth/authorize?client_id=65a64eb173ab3f18b27b&nonce=b28cae8e6db0b3aa67b132a32b120fe4&redirect_uri=https%3A%2F%2Fcloud.digitalocean.com%2Fregistrations%2Fgithub%2Fauthapi_callback&response_type=code&scope=user%3Aemail&state=dXVpZD0xYzMyNjkzNy1mOThjLTRjOTktOTdjNy04MGZhMTExNGVkZWI%3D" type="button" name="button">GitHub</a>
+              </div>
+              <div class="terms">
+                <p><small>By signing up you agree to the <a href="#">Terms of Service</a>.</small></p>
+              </div>
+            </div>
           </form>
         </div>
-
       </div>
+    </div>
+    <div class="container trusted">
+      <!--<ul>
+        <li><a href="#"><img src="docker-bab60eeb.png" alt="logo doc" class="img-thumbnail"><a></li>
+        <li><a href="#"><img src="gitlab-166e2067.png" alt="logo gitL" class="img-thumbnail"><a></li>
+        <li><a href="#"><img src="docker-bab60eeb.png" alt="logo doc" class="img-thumbnail"><a></li>
+        <li><a href="#"><img src="gitlab-166e2067.png" alt="logo gitL" class="img-thumbnail"><a></li>
+        <li><a href="#"><img src="docker-bab60eeb.png" alt="logo doc" class="img-thumbnail"><a></li>
+        <li><a href="#"><img src="gitlab-166e2067.png" alt="logo gitL" class="img-thumbnail"><a></li>
+
+      </ul>-->
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="docker-bab60eeb.png" alt="logo doc" class="img-thumbnail"></div>
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="gitlab-166e2067.png" alt="logo gitL" class="img-thumbnail"></div>
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="slack-e20293da.png" alt="logo doc" class="img-thumbnail"></div>
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="hashicorp-4431df79.png" alt="logo doc" class="img-thumbnail"></div>
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="wework-be6eab32.png" alt="logo doc" class="img-thumbnail"></div>
+      <div class="row-img col-xs-12 col-sm-6 col-md-2"><img src="splunk-06b17d75.png" alt="logo doc" class="img-thumbnail"></div>
     </div>
   </body>
 </html>
